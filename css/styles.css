@@ -29,21 +29,13 @@ img {
 } 
 Applies to all links
 */
-a:visited {
-    color: purple
-}
-/*also has visited, hover, active, focus*?
-
 /* Profile */
-
-header {
-    background: #0A100D;
-    color: white;
-}
 
 .profile {
     padding-left: 10px;
-    padding-right: 10px
+    padding-right: 10px;
+    background-color: black;
+    color: white;
 }
 
 /* Projects */
@@ -76,3 +68,21 @@ footer a:visited {
     color: red
 }
 
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li, a, .nav-link {
+    display: inline;
+    text-align: center;
+    color: black;
+    padding: 0.5% 0.5%
+    
+}
+
+li, a, .nav-link:hover {
+    color: dodgerblue
+}
