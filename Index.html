@@ -7,117 +7,143 @@
   </head>
   <body>
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <section class = "profile">
-            <h1>Philip Wilkinson</h1>
-            <h2>Smart Cities and Urban Analytics MSc student</h2>
-
-            <p>I am currently studying for my Master's in Smart Cities and Urban Analytics within the Centre for Advanced Spatial Analysis at UCL. I am interested in understand how technology and data science can aid our understanding of how the built environment works and how we can then improve that to make everyone's lives better. </p>
+    
         
-            <p>My existing pieces of work can be found through the links below, including my submission for Urban Systems Theory, Quantitative Methods and Geographic Information Systems and Science. I am looking forward to expanding on these projects, as well as developing new ones as my knowledge of data science and its applications grow.</p>  
-        </section>
-      </header>
+    <section class = "Introduction" id = "Welcome">
+        <nav class = "navbar navbar-default" >
+            <ul id = "Home" class="nav">
+                <li><a class = "nav-link" href="#Home">Home</a></li>
+                <li><a class = "nav-link" href="#About">About</a></li>
+                <li><a class = "nav-link" href="#projects">Projects</a></li>
+                <li><a class = "nav-link" href="#Education">Education</a></li>
+                <li><a class = "nav-link" href="#WorkExperience">Work Experience</a></li>
+                <li><a class = "nav-link" href="#footer">Links</a></li>
+            </ul>
+        </nav>
+    
+        <div class = "title" id = "Title">
+    
+            <h1>Philip Wilkinson</h1> 
+            
+            <h2>Centre for Advanced Spatial Analysis PhD Student</h2>
+        
+        </div>        
+        
+    </section>
+      
 
+    <!-- ***********************  ABOUT / PROFILE  *********************** -->
+    <section class = "profile container" id ="About">
+        
+        <div class="about-content">
+            <h2> About Me </h2>
+
+            <p> Hello, my name is Philip Wilkinson. I am currently studying for a PhD at the Centre for Advanced Spatial Analysis, UCL, after previously completing a Masters in Smart Cities and Urban Analytics in the same department. I am currently working on on a variety of data science projects that have explored the ways in which the built environment can influence social, economic and political outcomes and developing my coding experience and portfolio. </p>
+        
+            <p>My interests lie in being able to understand how the physical built environment shapes our social, economic and political interactions and can lead to diverse life outcomes. This includes the way in which new technologies or analytical techniques can help inform this understanding and hence help us shape the built environment to the benefit of all.</p>
+        </div>
+        
+        
+    </section>
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class= "project">
-        <h2>Featured Projects</h2>
-        <p>View my selected projects below.</p>
+      <section class= "project" id="projects">
+        <h2 class = "heading">Featured Projects</h2>
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3> Geographic Information Systems and Science </h3>
-          <img src="./images/thumbnail-1.jpg" alt="A picture of a panda">
-          <p>This project sought to understand, in very basic terms, where can the dividing line between the North and South of the UK be drawn, and to what extent this affects quality of life. This project developed through my desire to understand the North/South Divide in the UK.</p>
-          <a href="#" target="_blank">View project / case study</a>
-        </section>
+        <div class = "work-project">
+          <article class = "project-wording">
+          <h3> Differences in UK transport profiles </h3>
+          <p> This workpiece produced a website, in conjunction with a team of students on the Master's program, that presented an analysis of travel to work pattens in the UK using the 2011 census data. The website was originally hosted on the UCL internal server but now currently resides on a AWS Lightsail instance, utilising Apache and NodeJs.</p>
+              
+          <!--<button class = "button1"><a href="https://www.spidercartographers.co.uk" target="_blank">View article</a></button>
+          <button class = "button1"><a href="https://github.com/natesheehan/spidercartographers" target = "_blank">View code</a></button> -->
+          <button class = "button1"><a href="https://www.spidercartographers.co.uk" target="_blank">View article</a></button>
+          <button class = "button1"><a href="https://github.com/natesheehan/spidercartographers" target="_blank">View code</a></button>
+              
+          </article>
+            
+          <div class = "project-image">
+            <img src="./images/UK-transport.jpg" alt="A picture of a motorway; credit: motortransport ">
+          </div>
+            
+        </div>
           
-        <section>
-          <h3> Quantitative Methods </h3>
-          <img src="./images/thumbnail-1.jpg" alt="A picture of a panda">
+        
+        <div class = "work-project">
+          <article class = "project-wording">
+          <h3>Medium article publications</h3>
+          <p> The links below highlight some of the medium article that I have been working along, along side my studies, to be able to ensure that I know what I am learning and that I can share this process with other people. This has so far included a throught piece on the potential negative effects on innovation of working from home and a piece on list, dictionary and set comprehensions.</p>
+          
+          <button class = "button1"><a href="https://medium.com/@pip.wilkinson97" target="_blank">View articles</a></button>
+          
+        
+          </article>
+            
+          <div class = "project-image"> 
+             <img src="./images/blog.png" alt="A picture of writing on a computer; credit webnode.com">
+          </div>
+        </div>
+        
+     <!--
+        <article>
+          <h3> UK North/South divide </h3>
+          <img src="./images/North-South-divide.jpg" alt="A picture of the North South Divide; 
+                                                          credit: The Gryphon">
+          <p>This project sought to understand, in very basic terms, where the dividing line between the North and South of the UK be drawn, and to what extent this affects quality of life. This project developed through my desire to understand the North/South Divide in the UK.</p>
+          <a href="#" target="_blank">View article</a>
+          <a href="https://github.com/PhilipDW183/GIS_Assessment">View code</a>
+        </article>
+          
+        <article>
+          <h3> Urban education disparities </h3>
+          <img src="./images/Education.jpg" alt="A picture of a classroom; credit: Rampages US">
           <p> Here I utilised multiple linar regression techniques, following in the path of exitsing literature, to understand the potential effects that neighbourhood characteristics may have on learning outcomes. </p>
-          <a href="#" target="_blank">View project / case study</a>
-        </section>
+          <a href="#" target="_blank">View article</a>
+          <a href="#" target="_blank">view code</a>
+        </article>
           
-        <section>
-          <h3> Urban Systems Theory </h3>
-          <img src="./images/thumbnail-1.jpg" alt="A picture of a panda">
-          <p> This module required the production of a research proposal that dealth with some of the topic raised in the course. Here I decided to put forward a proposal that would seek to explore the literature surrounding Richard Florida's creative class, and compare whether and to what extent, the social divides that have been suggested to arise as a result of placemaking for the creative class, extend into physical divides. </p>
-          <a href="#" target="_blank">View project / case study</a>
-        </section>
+        
+          
+        <article>
+          <h3> UK patenting innovation </h3>
+          <img src = ".images/Innovation.jpg" alt ="A picture of hand holding data; credit: ideadrop">
+          <p>
+          </p>
+          <a href="#" target="_blank">View article</a>
+          <a href="https://github.com/PhilipDW183/Dissertation">View code</a>
+        </article>
+          
+        <article>
+            <h3> Urban heat island effect during COVID-19</h3>
+            <p>TBC</p>
+        </article>
         <!-- End of Project block. -->
       </section>
-
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class = "work-experience">
-        <h2>Work Experience</h2>
-        <p>Whilst still in full time education I have taken the opportunity presented by several internships to continue to expand my knowledge and skills of what I have been learning in the classroom as well as to explore new and interesting disciplines</p>
-
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Research Assistant</h3>
-          <p>Cambridge Digital Innovation</p>
-          <p>2019 August - September</p>
-          <p>Summary:</p>
-          <ul>
-            <li>Developing a research paper on the role of networks in fostering innovation within a cluster of firms</li>
-            <li>Preparing short works on areas of interest to be published on the Cambridge Digital Innovation website</li>
-            <li>Presenting a PowerPoint presentation to present my results to a cohort of interested parties on the Wellcome Genome Campus</li>
-          </ul>
-        </section>
-          
-          
-        <section>
-          <h3>Intern Project Manager</h3>
-          <p>Cushman &amp; Wakefield</p>
-          <p>2019 July - August </p>
-          <p>Summary:</p>
-          <ul>
-            <li>Assisting in managing a Cat B office fit-out in the centre of London for an email security firm</li>
-            <li>Organizing a request for proposal for office moving services, including site visits and collating information to be presented to the client</li>
-            <li>Delivering and organizing a PowerPoint presentation to Human Resources and fellow interns on the use of big data within Project Management and Real Estate as part of a team</li>
-          </ul>
-        </section>
-          
-        <section>
-          <h3>(Casual) Research Assistant </h3>
-          <p>Cambridge Digital Innovation</p>
-          <p>2018 June - September </p>
-          <p>Summary:</p>
-          <ul>
-            <li>Researching the expansion and intangible value of a biotech cluster in relation to the mix between commercial and research interests</li>
-            <li>Interviewing senior individuals within multiple different companies, to obtain knowledge of the benefits of interactions on campus </li>
-            <li>Analysing data and research papers encompassing ideas of knowledge spillovers at different spatial levels to understand connections and interactions between individuals and firms</li>
-          </ul>
-        </section>
-        <!-- End of Job block. -->
-      </section>
-
+      
+    
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class = "Education">
-        <h2>Education</h2>
+      <section class = "Education" id = "Education">
+        <h2 class = "institution institution-heading">Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>2019 - Current</h3>
-          <h3>University College London</h3>
+        <section class = "institution">
+          <h3>University College London - 2019/2020</h3>
           <p>MSc Smart Cities and Urban Analytics</p>
           <p>Modules include:</p>
-          <ul>
+          <ul class = "modules">
             <li>Geographic Information Systems and Science - R</li>
             <li>Urban Simulation - R, Netlogo </li>
             <li>Introduction to Programming for Spatial Analysis – Python, Javascript</li>
-            <li>Spatial Data Capture, Storage and Analysis – SQL, HTML, CSS, Javascript</li>
+            <li>Spatial Data Capture, Storage and Analysis – SQL, HTML, CSS, Javascript, Python</li>
             <li>Quantitative methods - Python</li>
           </ul>
         </section>
           
-        <section>
-          <h3>2016-2019</h3>
-          <h3>Cambridge University</h3>
+        <section class = "institution">
+          <h3>Cambridge University - 2016/2019</h3>
           <p>BA Land Economy - <b>1st Class</b> </p>
           <p>Modules completed:</p>
-          <ul>
+          <ul class = "modules">
             <li>The Built Environment</li>
             <li>Land and Urban Economics</li>
             <li>Advanced Techniques in Finance and Investment for Real Estate</li>
@@ -127,25 +153,99 @@
           <P><b>Three time Blundell Scholar</b> - For Academic achievement in 1st, 2nd and 3rd year</P>
           <p><b>Worth Waynflete Prize Winner</b> - For graduating in the top 10% of my class</p>
         </section>
-        <section>
-          <h3>2014-2016</h3>
-          <h3>Rossal School</h3>
-          <p><b>A-levels</b></p>
-          <p>Mathematics (A*), Further Mathematics (A*), Physics (A*), 
-		  Economics (A*), Geography (A)</p>
-          <p><b>Academic Awards</b>b> – For attainment in Mathematics, Physics, Economics and Geography in 2015 and 2016</p>
+          
+          
+        <section class = "institution">
+          <h3>Rossal School - 2014/2016</h3>
+          <p><b>A-levels:</b></p>
+          <ul class = "modules">
+            <li>Mathematics (A*)</li>
+            <li>Further Mathematics (A*)</li>
+            <li>Physics (A*)</li>
+            <li>Economics (A*)</li>
+            <li>Geography (A)</li>
+          </ul>
+          <p><b>Academic Awards</b> – For attainment in Mathematics, Physics, Economics and Geography in 2015 and 2016</p>
         </section>
         <!-- End of School block. -->
       </section>
 
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <h2>Let's Keep in Touch!</h2>
+        
+    <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <section class = "work-experience" id = "WorkExperience">
+        <div class = "experience experience-title">
+        <h2>Work Experience</h2>
+        <p>Whilst still in full time education I have taken the opportunity presented by several internships to continue to expand my knowledge and skills of what I have been learning in the classroom as well as to explore new and interesting disciplines</p>
+        </div>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <a href="mailto:philip.davidwilkinson@gmail.com">philip.davidwilkinson@gmail.com</a>
-        <a href="www.linkedin.com/in/philip-wilkinson-02917b150" target="_blank">LinkedIn</a>
-      </footer>
+        <!-- Copy this whole <section> block to add more jobs. -->
+        <section class = "experience">
+          <h3>Research Assistant</h3>
+          <p>Cambridge Digital Innovation</p>
+          <p>2019 August - September</p>
+          <p>Summary:</p>
+          <ul class = "bullet points">
+            <li>Developing a research paper on the role of networks in fostering innovation within a cluster of firms</li>
+            <li>Preparing short works on areas of interest to be published on the Cambridge Digital Innovation website</li>
+            <li>Presenting a PowerPoint presentation to present my results to a cohort of interested parties on the Wellcome Genome Campus</li>
+          </ul>
+        </section>
+          
+          
+        <section class = "experience">
+          <h3>Intern Project Manager</h3>
+          <p>Cushman &amp; Wakefield</p>
+          <p>2019 July - August </p>
+          <p>Summary:</p>
+          <ul class = "bullet points">
+            <li>Assisting in managing a Cat B office fit-out in the centre of London for an email security firm</li>
+            <li>Organizing a request for proposal for office moving services, including site visits and collating information to be presented to the client</li>
+            <li>Delivering and organizing a PowerPoint presentation to Human Resources and fellow interns on the use of big data within Project Management and Real Estate as part of a team</li>
+          </ul>
+        </section>
+          
+        <section class = "experience">
+          <h3>(Casual) Research Assistant </h3>
+          <p>Cambridge Digital Innovation</p>
+          <p>2018 June - September </p>
+          <p>Summary:</p>
+          <ul class = "bullet points">
+            <li>Researching the expansion and intangible value of a biotech cluster in relation to the mix between commercial and research interests</li>
+            <li>Interviewing senior individuals within multiple different companies, to obtain knowledge of the benefits of interactions on campus </li>
+            <li>Analysing data and research papers encompassing ideas of knowledge spillovers at different spatial levels to understand connections and interactions between individuals and firms</li>
+          </ul>
+        </section>
+        <!-- End of Job block. -->
+      </section>
+    
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <div id = "footer">
+		<div class="columns">
+            <!-- the align sets where the text aligns to in the paragraph -->
+            <p align = "left">
+                    <b>Contact:</b> philip.wilkinson.19@ucl.ac.uk
+                    <br/>
+                    <b>Current location:</b> UCL
+            </p>
+        </div>
+        <div class="columns">
+            <p align = "center">
+                
+                <b>LinkedIn:</b><a href="www.linkedin.com/in/philip-wilkinson-02917b150" taregt = _blank> Philip Wilkinson </a>
+                
+            </p>
+        </div>
+        <div class="columns">
+            <p align = "right">
+                <b>Blog:</b> <a href="https://medium.com/@pip.wilkinson97" taregt = _blank> pip.wilkinson97 </a>
+                <br/>
+                <b>Twitter:</b> 
+            </p>
+        </div>
+            
+
+	</div>
+
         
     </main>
       
