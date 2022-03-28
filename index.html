@@ -135,9 +135,9 @@
 									by a group of 2 Science Executives to support the creation and delivery of these workshops
 									throughout the first and second term of the year to the largest student led Technology focused
 									society at UCL. In addition to this all workshops that we presented have been built in a series of 
-									Medium articles to increase exposure, reaching over 30,000 individuals beyond UCL. You can 
-								 	find our workshops on our <a href= "https://philip-wilkinson.medium.com/">https://github.com/UCL-DSS/readme</a>
-									and the Medium articles on my <a href= "https://philip-wilkinson.medium.com/">Medium profile</a>. Workshops that I created include: </p>
+									Medium articles to increase exposure, reaching over 90,000 individuals beyond UCL. You can 
+								 	find our workshops on our <a href= "https://github.com/UCL-DSS/readme">https://github.com/UCL-DSS/readme</a>
+									and the Medium articles through the <a href= "https://medium.com/p/825a39915b54">summary article</a>. Workshops that I created include: </p>
 								<ul>
 									<li>
 										<a href = "https://github.com/UCL-DSS/Object_oriented_programming">Introduction to Object Oriented Programming</a>
@@ -180,6 +180,42 @@
 									</li>
 									
 								</ul>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/dpu.jpg" alt="" /></div><div class="content">
+								<h2>Development Planning Unit Website</h2>
+								<p>Myself and a colleague were commissioned to produce an alumni website for the 
+									Development Planning Unit, UCL to be able to allow alumni to interact with each
+									other on a dedicated platform. My task for this was to develop a pipeline to allow
+									for continous data updating in regards to the alumni details on the platform from 
+									a firebase database and create a dashboard that would allow the department to accept or
+									reject users and visualise usage statistics. This was created over a period of two weeks
+									where the following tasks were completed:
+								</p>
+								<ul>
+									<li>
+										A python script was created that geocoded the locational information of users into a GeoJSON
+										that could be served up to the website to use in the Mapbox visualisation.
+									</li>
+									<li>
+										A GitHub action was set up to load in new data from the firebase database every 12 hours into the 
+										Python script, which would then create a refreshed GeoJSON
+									</li>
+									<li>
+										A Plotly Dash dashboard was created and hosted on Heroku that would give the department the ability to 
+										visualise usage statistics including active users and where they are located. Additional functionality
+										included a downloadable table that contained contact information for users who wished to be included on 
+										regular corresponence, and an interactive table that provided the department the ability to accept or reject
+										users based on their profile information which would then feed into the GitHub Actions work in that only
+										verified users would be displayed on the maps created
+									</li>
+									
+								</ul>
+								<p>
+									So far the website has been running continually for the past four months with few issues and successfully
+									hosts over 300 active users.
+								</p>
 							</div>
 						</section>
 					</section>
